@@ -14,16 +14,23 @@ input:hover {
 h3 {
   font-size: 16px;
   margin: 0;
+  color: var(--dark-color);
 }
 
 h2 {
   font-size: 20px;
   margin: 0;
+  color: var(--dark-color);
 }
 
 h1 {
   font-size: 24px;
   margin: 0;
+  color: var(--dark-color);
+}
+
+p {
+  color: var(--darker-base);
 }
 
 * {
@@ -32,7 +39,7 @@ h1 {
   --base-color: #D9D9D9;
   --darker-base: #5D5D5D;
   --light-color: #DAFFFB;
-  --dark-color: #001C30;
+  --dark-color: #292929;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -179,7 +186,6 @@ input {
 
 .welcome-text {
   margin-left: 30px;
-  color: var(--dark-color);
 }
 
 .buttons {
@@ -220,4 +226,7 @@ button {
 
 .project {
   background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  border-left: 4px solid var(--main-color);
 }
