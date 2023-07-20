@@ -139,3 +139,7 @@ input {
   font-weight: 900;
   color: var(--dark-color);
 }
+
+.main-section {
+  background-color: var(--base-color);
+}
