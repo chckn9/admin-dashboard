@@ -4,6 +4,7 @@ html, body {
 
 * {
   --main-color: blue;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .sidebar {
@@ -25,6 +26,7 @@ html, body {
 
 .logo-text {
   font-size: 24px;
+  font-weight: bold;
   grid-column: 2 / 3;
 }
 
@@ -35,6 +37,7 @@ html, body {
 
 .sb-element {
   grid-column: 2 / 3;
+  font-weight: 500;
 }
 
 img.icon {
