@@ -24,5 +24,10 @@ html, body {
 .logo img {
   max-height: 40px;
   margin-right: 10px;
+}
+
+.icon {
+  margin-right: 30px;
   filter: invert(1);
+  max-height: 20px;
 }
