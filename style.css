@@ -3,13 +3,20 @@ html, body {
 }
 
 * {
-  --main-color: blue;
+  --main-color: #176B87;
+  --selected-color: #64CCC5;
+  --base-color: #DAFFFB;
+  --dark-color: #001C30;
   font-family: 'Ubuntu', sans-serif;
+}
+
+.icon:hover, .sb-element:hover {
+  color: var(--selected-color);
 }
 
 .sidebar {
   background-color: var(--main-color);
-  color: white;
+  color: var(--base-color);
   padding: 20px;
   display: grid;
   grid-template-columns: 50px 150px;
@@ -62,5 +69,5 @@ img.icon {
 
 a {
   text-decoration: none;
-  color: white;
+  color: var(--base-color);
 }
