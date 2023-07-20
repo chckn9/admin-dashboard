@@ -7,6 +7,10 @@ button:hover {
   color: var(--main-color);
 }
 
+input:hover {
+  box-shadow: 0px 0px 10px 1px #5D5D5D;
+}
+
 h3 {
   font-size: 16px;
   margin: 0;
