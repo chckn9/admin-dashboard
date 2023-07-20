@@ -27,7 +27,7 @@ html, body {
   padding: 20px;
   display: grid;
   grid-template-columns: 50px 150px;
-  grid-template-rows: 1fr 6fr 8fr;
+  grid-template-rows: 1fr 6fr 10fr;
   align-items: center;
   grid-row: 1 / 3;
   height: 100vh;
@@ -72,6 +72,8 @@ img.icon {
 .main-links {
   margin-top: 20px;
   grid-column: 1 / 3;
+  align-self: self-start;
+
 }
 
 .extra-links {
@@ -88,4 +90,12 @@ a {
   background-color: var(--base-color);
   display: grid;
   grid-template-columns: 2fr 1fr;
+}
+
+.search-bar {
+  background-color: lightgray;
+}
+
+.buttons {
+  background-color: lightgray;
 }
