@@ -10,7 +10,7 @@ html, body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-.logo-text:hover, .large-icon:hover, .icon:hover, .sb-element:hover {
+.selected {
   color: black;
   filter: invert(80%) sepia(17%) saturate(1071%) hue-rotate(125deg) brightness(92%) contrast(83%);
 }
@@ -71,4 +71,9 @@ img.icon {
 a {
   text-decoration: none;
   color: var(--base-color);
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
