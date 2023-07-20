@@ -1,0 +1,13 @@
+* {
+  --main-color: blue;
+}
+
+.sidebar {
+  background-color: var(--main-color);
+  color: aliceblue;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
