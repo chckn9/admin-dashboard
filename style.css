@@ -10,8 +10,9 @@ html, body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-.icon:hover, .sb-element:hover {
-  color: var(--selected-color);
+.logo-text:hover, .large-icon:hover, .icon:hover, .sb-element:hover {
+  color: black;
+  filter: invert(80%) sepia(17%) saturate(1071%) hue-rotate(125deg) brightness(92%) contrast(83%);
 }
 
 .sidebar {
@@ -39,7 +40,7 @@ html, body {
 
 .large-icon {
   height: 40px;
-  filter: invert(1);
+  filter: invert(92%) sepia(11%) saturate(463%) hue-rotate(108deg) brightness(105%) contrast(103%);
 }
 
 .sb-element {
@@ -54,7 +55,7 @@ img.icon {
 }
 
 .icon {
-  filter: invert(1);
+  filter: invert(92%) sepia(11%) saturate(463%) hue-rotate(108deg) brightness(105%) contrast(103%);
   max-height: 20px;
   grid-column: 1 / 2;
 }
