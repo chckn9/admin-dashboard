@@ -101,6 +101,9 @@ img.icon {
 .icon {
   filter: invert(92%) sepia(11%) saturate(463%) hue-rotate(108deg) brightness(105%) contrast(103%);
   max-height: 20px;
+}
+
+.sidebar .icon {
   grid-column: 1 / 2;
 }
 
