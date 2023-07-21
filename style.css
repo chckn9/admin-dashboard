@@ -51,7 +51,7 @@ p {
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 3fr 10fr;
+  grid-template-rows: 180px 1fr;
 }
 
 .sidebar {
